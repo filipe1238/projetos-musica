@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f5a8d6d-ebfb-466d-bbfb-bf06fe520790" name="Changes" comment="limpa de código nao utilizado">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/projetosintegrados/controllers/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/projetosintegrados/entities/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/projetosintegrados/repositories/MusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/projetosintegrados/services/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Hooks/useGetMusicas.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/music/music.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/musics/file.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/musics/sample-file-3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projetos-integrados.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layout/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2cSwE0tFY1uDxyEU3xzWvQlQXTr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Backend.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/filip/IdeaProjects/projeto-musica&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.projetosintegrados.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\backend\src\main\resources\musics" />
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\frontend\src\components\contratos" />
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\frontend\src\components\artistas" />
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\frontend\src\components\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\frontend\src" />
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\backend\src\main\resources" />
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\frontend\src\components\music\musics" />
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\frontend\src\components\music" />
+      <recent name="C:\Users\filip\IdeaProjects\projetos-integrados\frontend\src\components\contratos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.projetosintegrados.services" />
+      <recent name="com.projetosintegrados.dto" />
+      <recent name="com.projetosintegrados.repositories" />
+      <recent name="com.projetosintegrados.controllers" />
+      <recent name="com.projetosintegrados.entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Backend">
+    <configuration name="Backend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.projetosintegrados.ProjetosintegradosApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="Spring Boot.Backend" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f5a8d6d-ebfb-466d-bbfb-bf06fe520790" name="Changes" comment="" />
+      <created>1708118176351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708118176351</updated>
+      <workItem from="1708118180072" duration="162000" />
+      <workItem from="1708340858826" duration="1961000" />
+      <workItem from="1708358472436" duration="629000" />
+      <workItem from="1708382004000" duration="5715000" />
+      <workItem from="1708985263725" duration="707000" />
+      <workItem from="1708988214145" duration="410000" />
+      <workItem from="1708988677091" duration="202000" />
+      <workItem from="1708993907346" duration="605000" />
+      <workItem from="1709162965423" duration="657000" />
+      <workItem from="1709163819417" duration="752000" />
+      <workItem from="1709769041733" duration="8282000" />
+      <workItem from="1710065902155" duration="1934000" />
+      <workItem from="1710072080519" duration="13983000" />
+      <workItem from="1710089860490" duration="1149000" />
+      <workItem from="1710101871748" duration="684000" />
+      <workItem from="1710103299279" duration="8407000" />
+      <workItem from="1710201953576" duration="8987000" />
+      <workItem from="1710797566367" duration="54000" />
+      <workItem from="1710801227659" duration="2011000" />
+      <workItem from="1710803650902" duration="219000" />
+      <workItem from="1710803881722" duration="18000" />
+      <workItem from="1710803927398" duration="50000" />
+      <workItem from="1710803991043" duration="198000" />
+      <workItem from="1710804196065" duration="629000" />
+      <workItem from="1710804858788" duration="26000" />
+    </task>
+    <task id="LOCAL-00001" summary="corrigido campos de artista">
+      <option name="closed" value="true" />
+      <created>1708384947611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708384947611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adicionado cricao e autenticacao de usuarios">
+      <option name="closed" value="true" />
+      <created>1709775228694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709775228694</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tela de login">
+      <option name="closed" value="true" />
+      <created>1710067229894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710067229894</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modificado nome de show para evento">
+      <option name="closed" value="true" />
+      <created>1710076226264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710076226264</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modificado nome de show para evento">
+      <option name="closed" value="true" />
+      <created>1710076860230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710076860230</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adicionado tela basica para cotratos">
+      <option name="closed" value="true" />
+      <created>1710084360186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710084360186</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adicionado propriedades do contrato">
+      <option name="closed" value="true" />
+      <created>1710102358231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710102358231</updated>
+    </task>
+    <task id="LOCAL-00008" summary="eng">
+      <option name="closed" value="true" />
+      <created>1710102443828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710102443828</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removido necessidade de fazer dto's">
+      <option name="closed" value="true" />
+      <created>1710110391610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710110391610</updated>
+    </task>
+    <task id="LOCAL-00010" summary="limpa de código nao utilizado">
+      <option name="closed" value="true" />
+      <created>1710111701326</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710111701326</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="corrigido campos de artista" />
+    <MESSAGE value="adicionado cricao e autenticacao de usuarios" />
+    <MESSAGE value="tela de login" />
+    <MESSAGE value="modificado nome de show para evento" />
+    <MESSAGE value="adicionado tela basica para cotratos" />
+    <MESSAGE value="adicionado propriedades do contrato" />
+    <MESSAGE value="eng" />
+    <MESSAGE value="removido necessidade de fazer dto's" />
+    <MESSAGE value="limpa de código nao utilizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="limpa de código nao utilizado" />
+  </component>
+</project>
