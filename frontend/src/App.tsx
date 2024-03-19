@@ -12,10 +12,6 @@ import polyglotI18nProvider from 'ra-i18n-polyglot';
 import dataProvider from "./dataProvider";
 import {authProvider} from "./authProvider";
 import {ThemeName, themes} from "./themes/themes";
-import eventos from "./components/eventos/index";
-import artistas from "./components/artistas/index";
-import artistaeventos from "./components/artistaseventos";
-import contratos from "./components/contratos";
 import {Layout, Login} from "./layout";
 import CreateUserForm from "./CreateUserForm";
 import {Dashboard} from "./components/dashboard";
@@ -57,11 +53,7 @@ const App = () => {
             <CustomRoutes>
                 <Route path="/create-user" element={<CreateUserForm/>}/>
             </CustomRoutes>
-            <Resource name="eventos" {...eventos} show={ShowGuesser}/>
-            <Resource name="artistas" {...artistas} show={ShowGuesser}/>
-            <Resource name="artista-evento" {...artistaeventos} />
             <Resource name="users" {...users} show={ShowGuesser}/>
-            <Resource name="contratos" {...contratos} show={ShowGuesser} />
             <Resource name="musics" list={MusicList} edit={MusicEdit} create={MusicCreate} />
         </Admin>
     );

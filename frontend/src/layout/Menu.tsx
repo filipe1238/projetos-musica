@@ -6,9 +6,8 @@ import {
     MenuProps,
     useSidebarState,
 } from 'react-admin';
-import eventos from "../components/eventos/index";
-import artistas from "../components/artistas/index";
 import SubMenu from './SubMenu';
+import VisitorIcon from '@mui/icons-material/People';
 
 type MenuName = 'menuCatalog' | 'menuSales' | 'menuCustomers';
 
@@ -41,51 +40,22 @@ const Menu = ({ dense = false }: MenuProps) => {
                 handleToggle={() => handleToggle('menuCadastros')}
                 isOpen={state.menuCadastros}
                 name="pos.menu.cadastros"
-                icon={<eventos.icon />}
+                icon={<VisitorIcon />}
                 dense={dense}>
                 <MenuItemLink
                     to="/users"
                     state={{ _scrollToTop: true }}
                     primaryText={`pos.menu.users`}
-                    leftIcon={<eventos.icon />}
-                    dense={dense}
-                />
-                <MenuItemLink
-                    to="/artistas"
-                    primaryText={`pos.menu.artistas`}
-                    state={{ _scrollToTop: true }}
-                    leftIcon={<artistas.icon />}
+                    leftIcon={<VisitorIcon />}
                     dense={dense}
                 />
                 <MenuItemLink
                     to="/musics"
                     primaryText={`musicas`}
                     state={{ _scrollToTop: true }}
-                    leftIcon={<artistas.icon />}
+                    leftIcon={<VisitorIcon />}
                     dense={dense}
                 />
-            </SubMenu>
-            <SubMenu
-                handleToggle={() => handleToggle('menuEventos')}
-                isOpen={state.menuEventos}
-                name="pos.menu.artistas"
-                icon={<eventos.icon />}
-                dense={dense}>
-                <MenuItemLink
-                    to="/eventos"
-                    state={{ _scrollToTop: true }}
-                    primaryText={`pos.menu.eventos`}
-                    leftIcon={<eventos.icon />}
-                    dense={dense}
-                />
-                <MenuItemLink
-                    to="/contratos"
-                    state={{ _scrollToTop: true }}
-                    primaryText={`pos.menu.contratos`}
-                    leftIcon={<eventos.icon />}
-                    dense={dense}
-                />
-
             </SubMenu>
         </Box>
     );

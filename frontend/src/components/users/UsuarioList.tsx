@@ -1,6 +1,5 @@
-import {Datagrid, DateField, List, SearchInput, TextField} from "react-admin";
+import {Datagrid, List, SearchInput, TextField} from "react-admin";
 import {Theme, useMediaQuery} from "@mui/material";
-import PhotoFieldComponent from "../fotonome/PhotoFieldComponent";
 
 
 const artistaFilters = [
@@ -31,7 +30,6 @@ export const UsuarioList = () => {
                               },
                           }}>
                     {/*<TextField source="id"/>*/}
-                    {/*<PhotoFieldComponent source="nome" label={"resources.artista.fields.nome"}/>*/}
                     <TextField source="username" label={"resources.users.fields.username"}/>
                     <TextField source="password" label={"resources.users.fields.password"}/>
                     <TextField source="email" showTime label={"resources.users.fields.email"}/>
